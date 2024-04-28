@@ -1,8 +1,11 @@
 import React from 'react';
 import './index.css'; // Import your CSS file
+import LoginForm from './components/LoginForm';
+
 
 function App() {
   return (
+
     <div>
       <header className="header">
         <img className="picture1" src="images/pexels-jill-wellington-3776939.jpg" alt="header image" />
@@ -22,6 +25,7 @@ function App() {
           </form>
         </nav>
       </header>
+      
       <br/><br/><br/><br/><br/>
       <div className="Shop">
         <img className="picture2" src="images/pexels-alteredsnaps-14043693.jpg" alt="Shop Baking Supplies" />
